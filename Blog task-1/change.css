@@ -1,0 +1,12 @@
+.container{
+    width: 80%;
+    align-items: center;
+    margin-left: 10%;
+}
+.bg-img{
+    height: 590px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}

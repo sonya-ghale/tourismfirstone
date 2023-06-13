@@ -1,0 +1,33 @@
+<html>
+    <head>
+<style>
+    body{
+        margin-top: 10%;
+    }
+
+</style>
+    </head>
+    <body>
+        <div class="container">
+        <form action="">
+            <h3>Login Form</h3>
+            <div class="bhitra">
+        Name:<input type="text" placeholder="Enter your Name" required> <br> <br>
+        Email:<input type="email" placeholder="Enter your Email" required> <br> <br>
+        Phone:<input type="phone" placeholder="Enter your Phone number" required> <br> <br>
+    </div>
+    <input type="checkbox" checked="checked" name="remember">Remember me <br> <br>
+        <button>submit</button> 
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+    </form>
+</div>
+<script>
+    var modal = document.getElementById('id01');
+    window.onclick = function(event){
+        if (event.target == modal){
+            modal.style.display = "none";
+        }
+    }
+</script>
+    </body>
+</html>

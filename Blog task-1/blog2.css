@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0;
+    color: #f2f5f7;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+body{
+    font-size: 19px;
+    overflow-x: hidden;
+}
+
+/* navbar */
+.nav-bar{
+    display: flex;
+    list-style: none; 
+    width: 100%;
+    margin: 0;
+    /* padding: 0 0.7vw; */
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: uppercase;
+    background-color: blue;
+    overflow: hidden;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: rgb(245, 160, 3); */
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: rgb(4, 5, 5);
+    text-align: center;
+    padding: 14px 24px;
+    text-decoration: none;
+    transition: all ease-in-out 250ms;
+    /* margin: 0 0.7vw; */
+}
+li a:hover{
+    color: rgb(249, 52, 2);
+}
+.active{
+    background-color: rgb(212, 212, 15);
+}
+
+/* designing button */
+.button{
+    background-color: transparent;
+    background-color: #61DAFB;
+    border: 1.5px solid #61DAFB;
+    border-radius: 2em;
+    padding: 0.6rem 0.8rem;
+    margin-left: 2vw;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 10px 16px;
+}
+.button:hover {
+    color: #131418;
+    background-color: rgba(244, 164, 17, 0.943);
+    border: 1.5px solid rgba(244,164,17,0.943);
+    transition: all ease-in-out 350ms;
+}
+
+/* SECOND ONE */
+.main-one{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 40fr 10fr 10fr;
+    column-gap: 10px;
+    margin-left: 9%;
+}
+.image{
+   max-width: 100%;
+   max-height: 100%;
+   float: left;
+   display: flex;
+}
+.paragraph{
+    color: black;
+    padding-left: 20px;
+    padding-top: 2%;
+}
+p{
+    color: #0e0f0f;
+}
+
+/* UMM */
+#umm{
+    display: flex; 
+    flex-wrap: wrap;
+    /* column-gap: 30px;
+    margin-left:30px;
+    margin-bottom: 30px; */
+    
+}
+.blog-box{
+    width: 280px;
+    height: 400px;
+    margin:2rem 1rem;
+    /* flex: 1;   */
+     display: flex; 
+    flex-wrap: wrap;
+    position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+  }
+  .blog-box:hover{
+    top: -10px;
+  }
+  .blog-img{
+     width: 100%;
+    height:100%; 
+  }
+  .blog-img img{
+     width:100%;
+    height:50%; 
+    object-fit: fill;
+    object-position: center;
+  }
+  .blog-text{
+    padding: 30px; 
+    display: flex;
+    flex-direction: column; 
+    margin-top: 200px;
+  }
+  .blog-text span{
+    /* color: #41850c; */
+    font-size: 1rem;
+  }
+
+  .some{
+    font-size: 1.2rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+ font-weight: bold;
+ color: white;
+  }
+.blog-text  h3{
+    font-weight: bold;
+    color: white;
+}
+  
+
+
+/* thanks */
+.thanks{
+    width: 400px;
+    height: 250px;
+    border: 1px solid rgb(248, 240, 240);
+    text-align: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-left: 40%;
+    margin-right: 30%;
+    background-image: url(photo/macintosh-hdusersbrittanyloefflerdownloadsanig-32.gif);
+}
+.bitch{
+    margin-top: 20px;
+    color: white;
+}
+
+
+
+/* gurls */
+.gurls{
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+marquee{
+    color: white;
+    background-color: orange;
+    margin-left: 0;
+margin-right: 0;
+height: 30px;
+font-size: larger;
+}
+span, button{
+    color: #0e0f0f;
+    width: 80px;
+    height: 40px;
+}
+button:hover{
+    background-color: #de1515;
+    color: #f2f5f7;
+    border: #343232;
+}
+/* responsive */
+
+/* link pachi */
+h1{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 80px;
+    color: yellow;
+    font-style: bold;
+}
+.content{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    margin-top: 60px;
+}
+h2{
+    margin-top: 60px;
+}
+h3{
+    margin-top: 30px;
+}
+h2, h3{
+    color: black;
+}
+.content{
+    width: 60%;
+    height: 100%;
+}
+.last{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* login wala */
+.login{
+    width: 250px;
+    height:350px;
+    margin: auto;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 7px;
+}
+label{
+    color: #0e0f0f;
+    font-size: 15px;
+}
